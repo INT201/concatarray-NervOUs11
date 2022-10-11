@@ -1,7 +1,7 @@
 const { template } = require('@babel/core')
 
 function concatArray(array1, array2) {
-  let result = []
+  let result = [] //ผลลัพธ์
   if ((array1 == null && array2 == null) || (array1 == undefined && array2 == undefined)){
     return undefined
   }
